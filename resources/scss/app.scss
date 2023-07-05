@@ -1,0 +1,54 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    background-image: url("../img/picsum16.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: red;
+}
+
+header {
+    background-image: url('https://abcamera.it/wp-content/uploads/guida-lunghe-esposizioni.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-caption {
+    background-color: rgba($color: #000000, $alpha: 0.4);
+}
+
+.show-container{
+background: rgb(198,233,255);
+background: radial-gradient(circle, rgba(188,233,255,1) 0%, rgba(255,255,255,1) 100%);
+height: 900px;
+} 
+
+.carousel-caption-show{
+    width: 400px;
+    margin: 0;
+}
+
+.caurosel-img {
+    height: 400px;
+    width: 600px !important;
+}
+
+.divider {
+    width: 70%;
+    height: 1px;
+    background-color: #000000;
+    margin: 10px 0;
+}
+
+.city-description{
+    max-width: 1200px;
+    text-align: center;
+}
+
+.date{
+    font-weight: 700;
+}
